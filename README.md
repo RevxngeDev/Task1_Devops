@@ -1,18 +1,5 @@
 # DevOps Assignment 1 - Bash Scripting
 
-## Task Description
-
-Write a bash script that:
-1. Creates a `dev` group and adds all non-system users to it
-2. Grants `sudo` privileges without password prompt to the `dev` group
-3. Creates work directories for all users following the pattern `<user_name>_workdir`
-4. Accepts the target directory path via `-d` flag or prompts for it if not provided
-5. Sets directory permissions to 660 with owner:user and group:user's primary group
-6. Grants read access to the `dev` group for all created directories
-7. Logs all actions to both stdout and a log file
-
-## Implementation Details
-
 The script `devops_task1.sh` implements:
 
 1. **Group Management**:
