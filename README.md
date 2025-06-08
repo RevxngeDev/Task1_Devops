@@ -34,3 +34,5 @@ sudo ./devops_task1.sh -d /path/to/target
 
 # Run without target directory (will prompt)
 sudo ./devops_task1.sh
+
+
